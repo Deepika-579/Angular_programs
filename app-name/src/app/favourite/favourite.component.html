@@ -1,0 +1,16 @@
+<!--<span class="glyphicon"
+[class.glyphicon-star]="isFavourite" 
+[class.glyphicon.star-empty]="!isFavourite"
+(click)="onClick()"></span>
+<button cls="btn" (change)="onButtonClicked()"></button>-->
+<!--<span
+class="glyphicon"
+[ngClass]="{
+    'glyphicon-star':isFavourite,
+    'glyphicon-star-empty':isFavourite
+    }"
+    (click)="onClick()"
+></span>
+-->
+<button style.backgroundColor]="canSave ?'blue':'gray'" [style.color]="canSave ?'blue':'gray'"
+[style.fontWeight]="canSave ?'blue':'gray'">Save</button>
